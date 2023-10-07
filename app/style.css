@@ -25,10 +25,12 @@ li {
   background-color: #1a1a1a;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   height: 88vh;
+  gap: 2rem;
 }
 
 .nav-header {
@@ -45,4 +47,21 @@ li {
 
 .nav-header a {
   padding: 0.5rem 1rem;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 88vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  background-color: #2e1f1f;
+}
+
+.about {
+  background-color: #30472a;
 }
