@@ -7,8 +7,10 @@ type userType = {
 }
 
 export default async function Users() {
-  const res = await fetch("http://localhost:3000/api/users")
-  const users = await res.json()
+  //   const res = await fetch("http://localhost:3000/api/users")
+  //   const users = await res.json()
+
+  const users = [{ id: 1, name: "name - 1", email: "email__1@gmail.com" }]
 
   //   console.log(users)
 
