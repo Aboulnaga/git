@@ -1,8 +1,10 @@
 export default function Home() {
   return (
     <main>
-      <h1>step 1</h1>
-      <h1>this is git branch master</h1>
+      <section className="hero">
+        <h1>this is hero section from git v2</h1>
+        <h2>v2</h2>
+      </section>
     </main>
   )
 }
